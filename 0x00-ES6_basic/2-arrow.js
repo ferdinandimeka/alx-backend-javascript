@@ -1,9 +1,9 @@
-export default function getNeighborhoodsList() { // eslint-disable-line no-unused-vars
-    this.sanFransiscoNeighborhoods = ['SOMA', 'Union Square'];
+export default function getNeighborhoodsList() {
+  this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
-    const self = this;
-    this.addNeighborhood = (newNeighborhood) => {
-        self.sanFransiscoNeighborhoods.push(newNeighborhood);
-        return self.sanFransiscoNeighborhoods;
-    }
+  const self = this;
+  this.addNeighborhood = (newNeighborhood) => {
+    self.sanFranciscoNeighborhoods.push(newNeighborhood);
+    return self.sanFranciscoNeighborhoods;
+  };
 }
