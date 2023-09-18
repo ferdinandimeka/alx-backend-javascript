@@ -11,10 +11,10 @@ const VALID_MAJORS = ['CS', 'SWE'];
  */
 class StudentsController {
     static getAllStudents(request, response) {
-        const dataPath = process.argv.lenght > 2 ? process.argv[2] : '';
+        const dataPath = process.argv.length > 2 ? process.argv[2] : '';
 
         readDatabase(dataPath)
-      .then((studentGroups) => {
+        .then((studentGroups) => {
         const responseParts = ['This is the list of our students'];
         // A comparison function for ordering a list of strings in ascending
         // order by alphabetic order and case insensitive
