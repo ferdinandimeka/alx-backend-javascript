@@ -1,5 +1,5 @@
 const assert = require("assert");
-const add = require("./0-calcus");
+const add = require("./0-calcul");
 
 /**
  * @test {calcul#add}
