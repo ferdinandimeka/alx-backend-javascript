@@ -5,7 +5,7 @@ const { expect } = require('chai');
 /**
  * @test {sendPaymentRequestToApi}
  * @summary Testing the sendPaymentRequestToApi function
- * @description This is a description of the test
+ * @description This is a description of the test using hooks
  */
 describe('sendPaymentRequestToApi', () => {
     let spyUtils;
